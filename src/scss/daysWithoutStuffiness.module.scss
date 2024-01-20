@@ -1,0 +1,62 @@
+.container {
+  width: 21rem;
+  height: 23.938rem;
+  border-radius: 1.25rem;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.769rem;
+  .description {
+    color: #fff;
+    font-size: 3.438rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 55px */
+    letter-spacing: -0.206rem;
+    margin: 3.429rem 1.25rem 0 1.25rem;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.08rem solid #fff;
+    width: 18.5rem;
+    height: 3.978rem;
+    background-color: #fff;
+    border-radius: 6.25rem;
+    padding: 0.938rem 1.875rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.6s;
+    &:hover {
+      background-color: #000;
+      .buttonText {
+        color: #fff;
+      }
+      .buttonArrowContainer {
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+    .buttonText {
+      color: #000;
+      font-size: 1.563rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 25px */
+      letter-spacing: -0.094rem;
+    }
+    .buttonArrowContainer {
+      width: 1.75rem;
+      height: 1.75rem;
+      svg {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+}
