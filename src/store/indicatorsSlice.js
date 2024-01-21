@@ -17,7 +17,7 @@ const initialState = {
 const indicators = createSlice({
   name: "indicators",
   initialState,
-  redusrs: {
+  redusers: {
     setIndicators(state, action) {
       state.indicators = action.payload;
     },
